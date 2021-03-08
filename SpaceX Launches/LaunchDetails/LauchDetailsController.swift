@@ -40,6 +40,7 @@ class LauchDetailsController: UIViewController {
     }
     
     private func resolveBindings() {
+        // Bind isLoading
         viewModel?
             .isLoading
             .observeOn(MainScheduler.instance)
@@ -48,6 +49,7 @@ class LauchDetailsController: UIViewController {
             }
             .subscribe()
             .disposed(by: disposeBag)
+        // Subscribe to rocket model and update contents.
         viewModel?.rocket.subscribe(onNext: { [weak self] (rocket) in
             self?.nameLabel.text = rocket.name
             self?.descriptionLabel.text = rocket.descr
@@ -59,6 +61,9 @@ class LauchDetailsController: UIViewController {
         show ? activityIndicator.startAnimating() : activityIndicator.stopAnimating()
     }
     
+    
+    /// Opens wilki link in an in-app Safari Browser.
+    /// - Parameter link: wiki link
     private func routeToWiki(link: String) {
         guard let url = URL(string: link) else { return }
         let safariCtrl = SFSafariViewController(url: url)

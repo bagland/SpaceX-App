@@ -29,7 +29,6 @@ class LaunchesViewModel: LaunchesViewModelProtocol {
     }
     
     func fetch() {
-        launchesSubj.onNext([])
         isLoadingSubj.onNext(true)
         networking
             .getLaunches()
@@ -40,7 +39,11 @@ class LaunchesViewModel: LaunchesViewModelProtocol {
                     .filter(strSelf.launchFilter(_:))
                     .compactMap(strSelf.mapper.mapToViewAdapter(_:))
                     .map { LaunchesViewType.items(launch: $0) }
-                strSelf.launchesSubj.onNext(items)
+                if items.count == 0 {
+                    strSelf.launchesSubj.onNext([.empty])
+                } else {
+                    strSelf.launchesSubj.onNext(items)
+                }
             } onError: { [weak self] (error) in
                 self?.isLoadingSubj.onNext(false)
                 self?.launchesSubj.onNext([.error(message: error.localizedDescription)])

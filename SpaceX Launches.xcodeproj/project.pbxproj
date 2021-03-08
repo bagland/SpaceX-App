@@ -13,17 +13,13 @@
 		841C805425F4B60300F45602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841C805225F4B60300F45602 /* Main.storyboard */; };
 		841C805625F4B60500F45602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841C805525F4B60500F45602 /* Assets.xcassets */; };
 		841C805925F4B60500F45602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841C805725F4B60500F45602 /* LaunchScreen.storyboard */; };
-		841C806425F4B60500F45602 /* SpaceX_LaunchesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C806325F4B60500F45602 /* SpaceX_LaunchesTests.swift */; };
 		841C806F25F4B60500F45602 /* SpaceX_LaunchesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C806E25F4B60500F45602 /* SpaceX_LaunchesUITests.swift */; };
 		841C808825F4C1E100F45602 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C808725F4C1E100F45602 /* NetworkService.swift */; };
 		841C80AB25F4C78300F45602 /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C80AA25F4C78300F45602 /* NetworkServiceProtocol.swift */; };
 		841C80CB25F4CDA000F45602 /* SpaceXTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C80CA25F4CDA000F45602 /* SpaceXTarget.swift */; };
 		841C80D525F4CE8D00F45602 /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C80D425F4CE8D00F45602 /* Launch.swift */; };
-		841C80DA25F4D67000F45602 /* Fairings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C80D925F4D67000F45602 /* Fairings.swift */; };
-		841C80DF25F4D6AC00F45602 /* Failure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C80DE25F4D6AC00F45602 /* Failure.swift */; };
 		841C80E425F4D6D300F45602 /* FlickrLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C80E325F4D6D300F45602 /* FlickrLink.swift */; };
 		841C80E925F4D71700F45602 /* RedditLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C80E825F4D71700F45602 /* RedditLink.swift */; };
-		841C80EE25F4D75700F45602 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C80ED25F4D75700F45602 /* Core.swift */; };
 		841C80F325F4D79100F45602 /* Patch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C80F225F4D79100F45602 /* Patch.swift */; };
 		841C810325F4D80B00F45602 /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C810225F4D80B00F45602 /* Links.swift */; };
 		841C811325F4DEFF00F45602 /* LaunchesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C811225F4DEFF00F45602 /* LaunchesViewModel.swift */; };
@@ -33,6 +29,7 @@
 		841C814125F4E14200F45602 /* LaunchViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C814025F4E14200F45602 /* LaunchViewAdapter.swift */; };
 		841C814725F4E4D800F45602 /* LaunchMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C814625F4E4D800F45602 /* LaunchMapper.swift */; };
 		841C814F25F4E51400F45602 /* LaunchMapperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C814E25F4E51400F45602 /* LaunchMapperProtocol.swift */; };
+		844D918425F65F480088DA26 /* MockNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844D918325F65F480088DA26 /* MockNetworking.swift */; };
 		84AB607125F4FA99000F62FF /* LaunchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB606F25F4FA99000F62FF /* LaunchCell.swift */; };
 		84AB607225F4FA99000F62FF /* LaunchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AB607025F4FA99000F62FF /* LaunchCell.xib */; };
 		84AB609425F53A22000F62FF /* LaunchDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AB609325F53A22000F62FF /* LaunchDetails.storyboard */; };
@@ -85,7 +82,6 @@
 		841C805825F4B60500F45602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841C805A25F4B60500F45602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		841C805F25F4B60500F45602 /* SpaceX LaunchesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpaceX LaunchesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		841C806325F4B60500F45602 /* SpaceX_LaunchesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceX_LaunchesTests.swift; sourceTree = "<group>"; };
 		841C806525F4B60500F45602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		841C806A25F4B60500F45602 /* SpaceX LaunchesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpaceX LaunchesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		841C806E25F4B60500F45602 /* SpaceX_LaunchesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceX_LaunchesUITests.swift; sourceTree = "<group>"; };
@@ -94,11 +90,8 @@
 		841C80AA25F4C78300F45602 /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
 		841C80CA25F4CDA000F45602 /* SpaceXTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceXTarget.swift; sourceTree = "<group>"; };
 		841C80D425F4CE8D00F45602 /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
-		841C80D925F4D67000F45602 /* Fairings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fairings.swift; sourceTree = "<group>"; };
-		841C80DE25F4D6AC00F45602 /* Failure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Failure.swift; sourceTree = "<group>"; };
 		841C80E325F4D6D300F45602 /* FlickrLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrLink.swift; sourceTree = "<group>"; };
 		841C80E825F4D71700F45602 /* RedditLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditLink.swift; sourceTree = "<group>"; };
-		841C80ED25F4D75700F45602 /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
 		841C80F225F4D79100F45602 /* Patch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patch.swift; sourceTree = "<group>"; };
 		841C810225F4D80B00F45602 /* Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
 		841C811225F4DEFF00F45602 /* LaunchesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesViewModel.swift; sourceTree = "<group>"; };
@@ -108,6 +101,7 @@
 		841C814025F4E14200F45602 /* LaunchViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewAdapter.swift; sourceTree = "<group>"; };
 		841C814625F4E4D800F45602 /* LaunchMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchMapper.swift; sourceTree = "<group>"; };
 		841C814E25F4E51400F45602 /* LaunchMapperProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchMapperProtocol.swift; sourceTree = "<group>"; };
+		844D918325F65F480088DA26 /* MockNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworking.swift; sourceTree = "<group>"; };
 		84AB606F25F4FA99000F62FF /* LaunchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCell.swift; sourceTree = "<group>"; };
 		84AB607025F4FA99000F62FF /* LaunchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchCell.xib; sourceTree = "<group>"; };
 		84AB609325F53A22000F62FF /* LaunchDetails.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchDetails.storyboard; sourceTree = "<group>"; };
@@ -218,9 +212,9 @@
 		841C806225F4B60500F45602 /* SpaceX LaunchesTests */ = {
 			isa = PBXGroup;
 			children = (
-				841C806325F4B60500F45602 /* SpaceX_LaunchesTests.swift */,
 				841C806525F4B60500F45602 /* Info.plist */,
 				84AB60CD25F55C34000F62FF /* LaunchViewModelTests.swift */,
+				844D918325F65F480088DA26 /* MockNetworking.swift */,
 			);
 			path = "SpaceX LaunchesTests";
 			sourceTree = "<group>";
@@ -268,11 +262,8 @@
 			children = (
 				841C80D425F4CE8D00F45602 /* Launch.swift */,
 				841C810225F4D80B00F45602 /* Links.swift */,
-				841C80D925F4D67000F45602 /* Fairings.swift */,
-				841C80DE25F4D6AC00F45602 /* Failure.swift */,
 				841C80E325F4D6D300F45602 /* FlickrLink.swift */,
 				841C80E825F4D71700F45602 /* RedditLink.swift */,
-				841C80ED25F4D75700F45602 /* Core.swift */,
 				841C80F225F4D79100F45602 /* Patch.swift */,
 			);
 			path = DataModels;
@@ -599,12 +590,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				841C814125F4E14200F45602 /* LaunchViewAdapter.swift in Sources */,
-				841C80DA25F4D67000F45602 /* Fairings.swift in Sources */,
 				841C813725F4E0F200F45602 /* LaunchesViewModelProtocol.swift in Sources */,
 				84AB60B925F54538000F62FF /* LaunchDetailsViewModelProtocol.swift in Sources */,
 				84AB60C525F555BC000F62FF /* ErrorCell.swift in Sources */,
 				841C811325F4DEFF00F45602 /* LaunchesViewModel.swift in Sources */,
-				841C80DF25F4D6AC00F45602 /* Failure.swift in Sources */,
 				841C805125F4B60300F45602 /* LaunchesController.swift in Sources */,
 				841C804D25F4B60300F45602 /* AppDelegate.swift in Sources */,
 				841C80CB25F4CDA000F45602 /* SpaceXTarget.swift in Sources */,
@@ -613,7 +602,6 @@
 				841C808825F4C1E100F45602 /* NetworkService.swift in Sources */,
 				841C814725F4E4D800F45602 /* LaunchMapper.swift in Sources */,
 				84AB609925F53A57000F62FF /* LauchDetailsController.swift in Sources */,
-				841C80EE25F4D75700F45602 /* Core.swift in Sources */,
 				841C80E425F4D6D300F45602 /* FlickrLink.swift in Sources */,
 				841C80D525F4CE8D00F45602 /* Launch.swift in Sources */,
 				84AB609F25F53C51000F62FF /* Rocket.swift in Sources */,
@@ -635,7 +623,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841C806425F4B60500F45602 /* SpaceX_LaunchesTests.swift in Sources */,
+				844D918425F65F480088DA26 /* MockNetworking.swift in Sources */,
 				84AB60CE25F55C34000F62FF /* LaunchViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
